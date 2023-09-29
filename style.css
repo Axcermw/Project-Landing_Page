@@ -1,0 +1,173 @@
+body {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 1000px;
+    margin: auto;
+    align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 0 32px;
+
+}
+
+header h1 {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+li, .herodesc {
+    color:#e5e7eb;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+.part1 {
+    background-color: #1f2937;
+    display: flex;
+    padding: 100px 0;
+}
+
+.herotext {
+    flex: 1;
+    max-width: 500px;
+    padding: 0 32px;
+}
+
+.herotext * {
+    margin-bottom: 16px;
+}
+
+.herotitle {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.p1signup {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #3882f6;
+    border: 1px solid #3882f6;
+    border-radius: 8px;
+    padding: 8px 32px;
+    cursor: pointer;
+}
+
+.p1signup:hover {
+    transition-duration: 0.5s;
+    background-color: white;
+    color: #3882f6;
+    
+}
+
+.heroimg {
+    background-color: grey;
+    padding: 100px;
+    margin: 32px;
+}
+
+.part2 {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    text-align: center;
+}
+
+.p2title {
+    padding: 32px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.p2content {
+    display: flex;
+    max-width: 500px;
+    margin-bottom: 40px;
+    gap: 40px;
+    justify-content: center;
+}
+
+.itemplaceholder {
+    padding: 60px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+
+.part3 {
+    padding: 60px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: end;
+}
+
+.p3quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style:italic;
+    font-weight: 100;
+}
+
+.p3author {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.part4 {
+    margin: 100px;
+    padding: 32px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: #f9faf8;
+}
+
+.p4title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.p4signup {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+    padding: 8px 32px;
+    cursor: pointer;
+}
+
+.p4signup:hover {
+    transition-duration: 0.5s;
+    background-color: white;
+    color: #3882f6;
+    
+}
+
+footer {
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 32px;
+}
